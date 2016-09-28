@@ -1,0 +1,49 @@
+.container{
+ display:  block;
+width: 85%;
+height: 550px;
+border:none;
+  border: solid 3px black;
+}
+h1{
+  text-align: center;
+}
+hr{
+  width: 430px;
+}
+
+#names{
+  font-size: 20px;
+}
+
+
+div{
+  width: 75px;
+  height: 230px;
+  border: solid 3px black;
+  float: left;
+  margin: 50px 20px 30px 20px ;
+  display: inline-block;
+  padding-left: 180px;
+  border-radius: 20px;
+
+}
+#chinchilla {
+background: url("http://a-z-animals.com/media/animals/images/original/chinchilla2.jpg");
+background-size: cover;
+
+}
+img {
+  width: 75px;
+  height: 230px;
+}
+
+#pig{
+  background: url("http://potbellypigs.com/wordpress1/wp-content/uploads/2015/03/pig17.jpg");
+  background-size: cover;
+}
+
+#fox{
+  background: url("https://farm3.static.flickr.com/2935/14136735921_f95fcc7e6e.jpg");
+  background-size: cover;
+}
