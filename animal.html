@@ -23,7 +23,6 @@
     <hr>
 
 <div class="container">
-  <form action="http://localhost:8000/"  class=‘pet-form’ method=‘get’>
 
     <div class="product">
       <div id="chinchilla" class="picture"></div>
@@ -40,56 +39,67 @@
     </div>
 
 
+<form action="http://localhost:8000/"  class=‘pet-form’ method=‘post’ name='pet'>
   <div class="input">
       <h4 id="names">chinchilla</h4>
       <label id=‘chinchilla’>
-        <input type="radio" name="gender" value="male"> Male<br>
-        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
 
         <select name=“color”>
-          <option value=‘fur’>White</option>
-          <option value=‘fur’>Grey</option>
-          <option value=‘fur’>Black</option>
+          <option value=‘White-Chinchilla’>White</option>
+          <option value=‘Grey-Chinchilla’>Grey</option>
+          <option value=‘Black-Chinchilla’>Black</option>
         </select>
       </label>
   </div>
+  <button type="submit">Adopt Me!</button>
+</form>
 
+<form action="http://localhost:8000/"  class=‘pet-form’ method=‘get’ name='pet'>
   <div class="input">
       <h4 id="names">pig</h4>
       <label id=‘pig’>
-        <input type="radio" name="gender" value="male"> Male<br>
-        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
 
         <select name=“color”>
-          <option value=‘fur’>Pink</option>
-          <option value=‘fur’>Black</option>
-          <option value=‘fur’>Spotted</option>
+          <option value=‘Pink-Pig’>Pink</option>
+          <option value=‘Black-Pig’>Black</option>
+          <option value=‘Spotted-Pig’>Spotted</option>
         </select>
       </label>
   </div>
+  <button type="submit">Adopt Me!</button>
+</form>
 
+<form action="http://localhost:8000/"  class=‘pet-form’ method=‘get’ name='pet'>
   <div class="input">
     <h4 id="names">fox</h4>
         <label id=‘fox’>
-         <input type="radio" name="gender" value="male"> Male<br>
-         <input type="radio" name="gender" value="female"> Female<br>
+         <input type="radio" name="gender" value="Male"> Male<br>
+         <input type="radio" name="gender" value="Female"> Female<br>
 
         <select name=“color”>
-          <option value=‘fur’>White</option>
-          <option value=‘fur’>Black</option>
-          <option value=‘fur’>Orange</option>
+          <option value="White-Fox">White</option>
+          <option value="Black-Fox">Black </option>
+          <option value="Orange-Fox">Orange</option>
         </select>
       </label>
   </div>
+  <button type="submit">Adopt Me!</button>
+</form>
+
+
 
   </div>
+</form>
 
 
 
 
 
 
-    </aside>
   </main>
   <footer>
     <h5>Footer</h5>
