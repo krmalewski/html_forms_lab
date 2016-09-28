@@ -1,0 +1,28 @@
+hr{
+  width: 150px;
+}
+h1{
+  text-align: center;
+}
+body {
+  width: 80%;
+  height: 100%;
+  border: solid 3px black;
+  margin: 0 auto;
+}
+
+.container{
+  width: 700px;
+  height: 600px;
+  border-radius: 20px;
+  background-color: lightblue;
+  margin-left: 150px;
+   }
+   button{
+   width: 100px;
+    height: 10%;
+
+   }
+   section{
+
+   }
