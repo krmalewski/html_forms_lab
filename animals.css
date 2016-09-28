@@ -1,13 +1,18 @@
-.container{
- display:  block;
-width: 85%;
-height: 550px;
-border:none;
+.container {
+  width: 100%;
+  height: 100%;
   border: solid 3px black;
+  margin: 0 auto;
 }
+
 h1{
   text-align: center;
 }
+
+h4 {
+  text-align: center;
+}
+
 hr{
   width: 430px;
 }
@@ -16,18 +21,34 @@ hr{
   font-size: 20px;
 }
 
+.product {
+  width: 30%;
+  display: inline-block;
+  margin: 0 auto;
+}
 
-div{
-  width: 75px;
+.picture {
+  width: 255px;
   height: 230px;
-  border: solid 3px black;
+/*  border: solid 3px black;*/
   float: left;
   margin: 50px 20px 30px 20px ;
+/*  margin: 0 auto;*/
   display: inline-block;
-  padding-left: 180px;
-  border-radius: 20px;
-
+/*  padding-left: 180px;*/
+/*  border-radius: 20px;*/
 }
+
+label {
+  margin: 0 auto;
+}
+
+.input {
+  width: 30%;
+  display: inline-block;
+  margin: 0 auto;
+  }
+
 #chinchilla {
 background: url("http://a-z-animals.com/media/animals/images/original/chinchilla2.jpg");
 background-size: cover;

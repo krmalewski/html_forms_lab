@@ -21,26 +21,73 @@
   <main>
     <h1>FurReal-Friends</h1>
     <hr>
+
 <div class="container">
+  <form action="http://localhost:8000/"  class=‘pet-form’ method=‘get’>
 
-    <div id="chinchilla"><h4 id="names">chinchilla</h4></div>
-    <div id="pig"><h4 id="names">pig</h4></div>
-    <div id="fox"><h4 id="names">fox</h4></div>
-
-
-</div>
+    <div class="product">
+      <div id="chinchilla" class="picture"></div>
+    </div>
 
 
-    <article>
-      <form action="http://localhost:3000/showForm" class="list-maker-form" method="get" >
-        <label>Input your name
-          <input type="text" name="myName" />
-        </label>
+    <div class="product">
+      <div id="pig" class="picture"></div>
+    </div>
 
-          <button type="submit">jsdfhsf</button>
-      </form>
-    </article>
-    <aside class="list-output">
+
+    <div class="product">
+      <div id="fox" class="picture"></div>
+    </div>
+
+
+  <div class="input">
+      <h4 id="names">chinchilla</h4>
+      <label id=‘chinchilla’>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+
+        <select name=“color”>
+          <option value=‘fur’>White</option>
+          <option value=‘fur’>Grey</option>
+          <option value=‘fur’>Black</option>
+        </select>
+      </label>
+  </div>
+
+  <div class="input">
+      <h4 id="names">pig</h4>
+      <label id=‘pig’>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+
+        <select name=“color”>
+          <option value=‘fur’>Pink</option>
+          <option value=‘fur’>Black</option>
+          <option value=‘fur’>Spotted</option>
+        </select>
+      </label>
+  </div>
+
+  <div class="input">
+    <h4 id="names">fox</h4>
+        <label id=‘fox’>
+         <input type="radio" name="gender" value="male"> Male<br>
+         <input type="radio" name="gender" value="female"> Female<br>
+
+        <select name=“color”>
+          <option value=‘fur’>White</option>
+          <option value=‘fur’>Black</option>
+          <option value=‘fur’>Orange</option>
+        </select>
+      </label>
+  </div>
+
+  </div>
+
+
+
+
+
 
     </aside>
   </main>
