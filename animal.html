@@ -5,104 +5,81 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>HTML Forms</title>
   <link rel="stylesheet" href="animals.css">
-   <!-- <script src="app.js"></script> -->
+  <script src="starter.js"></script>
 </head>
 <body>
 <header id="header" class="">
 
-    <!-- <nav>
-      <ul>
-        <li><a href="/" title="">home</a></li>
-        <li><a href="" title="">link</a></li>
-        <li><a href="" title="">about</a></li>
-      </ul>
-    </nav> -->
-</header><!-- /header -->
   <main>
     <h1>FurReal-Friends</h1>
     <hr>
 
-<div class="container">
+    <div class="container">
 
-    <div class="product">
-      <div id="chinchilla" class="picture"></div>
+        <div class="product">
+          <div id="chinchilla" class="picture"></div>
+        </div>
+
+        <div class="product">
+          <div id="pig" class="picture"></div>
+        </div>
+
+        <div class="product">
+          <div id="fox" class="picture"></div>
+        </div>
+
+      <form action="http://localhost:8000/cart.html"  class=‘pet-form’ method=‘post’ name='pet'>
+        <div class="input">
+            <h4 id="names">chinchilla</h4>
+            <label id=‘chinchilla’>
+              <input type="radio" name="gender" value="Male"> Male<br>
+              <input type="radio" name="gender" value="Female"> Female<br>
+
+              <select name='color'>
+                <option value="White-Chinchilla">White</option>
+                <option value="Grey-Chinchilla">Grey</option>
+                <option value="Black-Chinchilla">Black</option>
+             </select>
+          </label>
+        </div>
+        <button type="submit" class="pick">Adopt Me!</button>
+      </form>
+
+      <form action="http://localhost:8000/cart.html"  class=‘pet-form’ method=‘get’ name='pet'>
+        <div class="input">
+          <h4 id="names">pig</h4>
+          <label id=‘pig’>
+            <input type="radio" name="gender" value='Male'> Male<br>
+            <input type="radio" name="gender" value='Female'> Female<br>
+
+            <select name='color'>
+              <option value="Pink-Pig">Pink</option>
+              <option value="Black-Pig">Black</option>
+              <option value="Spotted-Pig">Spotted</option>
+            </select>
+          </label>
+        </div>
+        <button type="submit" class="pick">Adopt Me!</button>
+      </form>
+
+      <form action="http://localhost:8000/cart.html"  class=‘pet-form’ method=‘get’ name='pet'>
+        <div class="input">
+          <h4 id="names">fox</h4>
+          <label id=‘fox’>
+            <input type="radio" name="gender" value="Male"> Male<br>
+            <input type="radio" name="gender" value="Female"> Female<br>
+
+            <select name='color'>
+              <option value="White-Fox">White</option>
+              <option value="Black-Fox">Black </option>
+              <option value="Orange-Fox">Orange</option>
+            </select>
+           </label>
+        </div>
+        <button type="submit" class="pick">Adopt Me!</button>
+      </form>
+
     </div>
-
-
-    <div class="product">
-      <div id="pig" class="picture"></div>
-    </div>
-
-
-    <div class="product">
-      <div id="fox" class="picture"></div>
-    </div>
-
-
-<form action="http://localhost:8000/"  class=‘pet-form’ method=‘post’ name='pet'>
-  <div class="input">
-      <h4 id="names">chinchilla</h4>
-      <label id=‘chinchilla’>
-        <input type="radio" name="gender" value="Male"> Male<br>
-        <input type="radio" name="gender" value="Female"> Female<br>
-
-        <select name='color'>
-          <option value="White-Chinchilla">White</option>
-          <option value="Grey-Chinchilla">Grey</option>
-          <option value="Black-Chinchilla">Black</option>
-        </select>
-      </label>
-  </div>
-  <button type="submit" class="pick">Adopt Me!</button>
-</form>
-
-<form action="http://localhost:8000/"  class=‘pet-form’ method=‘get’ name='pet'>
-  <div class="input">
-      <h4 id="names">pig</h4>
-      <label id=‘pig’>
-        <input type="radio" name="gender" value='Male'> Male<br>
-        <input type="radio" name="gender" value='Female'> Female<br>
-
-        <select name='color'>
-          <option value="Pink-Pig">Pink</option>
-          <option value="Black-Pig">Black</option>
-          <option value="Spotted-Pig">Spotted</option>
-        </select>
-      </label>
-  </div>
-  <button type="submit" class="pick">Adopt Me!</button>
-</form>
-
-<form action="http://localhost:8000/"  class=‘pet-form’ method=‘get’ name='pet'>
-  <div class="input">
-    <h4 id="names">fox</h4>
-        <label id=‘fox’>
-         <input type="radio" name="gender" value="Male"> Male<br>
-         <input type="radio" name="gender" value="Female"> Female<br>
-
-        <select name='color'>
-          <option value="White-Fox">White</option>
-          <option value="Black-Fox">Black </option>
-          <option value="Orange-Fox">Orange</option>
-        </select>
-      </label>
-  </div>
-  <button type="submit" class="pick">Adopt Me!</button>
-</form>
-
-
-
-  </div>
-</form>
-
-
-
-
-
-
   </main>
-  <footer>
-    <h5>Footer</h5>
-  </footer>
 </body>
 </html>
