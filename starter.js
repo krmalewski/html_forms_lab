@@ -24,30 +24,33 @@ var color = delineate2(locate);
 
 
 var theForm = document.querySelector('form');
+var diva = document.createElement('div');
+theForm.appendChild(diva);
 
 var a = document.createElement('input');
 a.setAttribute("value", sex);
 a.setAttribute("type", "checkbox");
 a.setAttribute("name", "Gender");
 a.required = true;
-theForm.appendChild(a);
+diva.appendChild(a);
 
 var agreement = document.createElement('p');
 agreement.textContent = "Check here if you agree to love your new pet!";
-theForm.appendChild(agreement);
+diva.appendChild(agreement);
 
-
+var divb = document.createElement('div');
+theForm.appendChild(divb);
 
 var b = document.createElement('input');
 b.setAttribute("value", color);
 b.setAttribute("type", "checkbox");
 b.setAttribute("name", "Fur")
 b.required = true;
-theForm.appendChild(b);
+divb.appendChild(b);
 
 var agreement2 = document.createElement('p');
 agreement2.textContent = "Check here if your state allows the keeping of exotic pets";
-theForm.appendChild(agreement2);
+divb.appendChild(agreement2);
 
 
 
