@@ -33,7 +33,7 @@ a.required = true;
 theForm.appendChild(a);
 
 var agreement = document.createElement('p');
-agreement.textContent = "Check here is you agree to love your new pet!";
+agreement.textContent = "Check here if you agree to love your new pet!";
 theForm.appendChild(agreement);
 
 
