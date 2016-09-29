@@ -6,12 +6,14 @@ h1{
   text-align: center;
   font-family: 'Fjalla One', sans-serif;
   font-size: 40px;
+  border-bottom: solid 1px black;
+  padding: 10px;
 }
 
 body {
   width: 80%;
   height: 100%;
-  border: solid 3px black;
+  border: dotted 1px black;
   margin: 0 auto;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
@@ -45,7 +47,7 @@ input[type=int], select {
 
 button {
     width: 100%;
-    background-color: #668cff;
+    background-color: #ff4dd2;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -57,7 +59,7 @@ button {
 }
 
 button:hover {
-    background-color: #4d79ff;
+    background-color: #e600ac;
 }
 
 input[type=checkbox] {
@@ -68,4 +70,8 @@ input[type=checkbox] {
 p {
   display: inline-block;
   padding: 0 50px 0 10px;
+}
+
+span {
+  color: #e600ac;
 }
