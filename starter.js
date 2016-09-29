@@ -25,11 +25,6 @@ var color = delineate2(locate);
 
 var theForm = document.querySelector('form');
 
-var agreement = document.createElement('p');
-agreement.textContent = "Check here is you agree to love your new pet!";
-theForm.appendChild(agreement);
-
-
 var a = document.createElement('input');
 a.setAttribute("value", sex);
 a.setAttribute("type", "checkbox");
@@ -37,10 +32,10 @@ a.setAttribute("name", "Gender");
 a.required = true;
 theForm.appendChild(a);
 
+var agreement = document.createElement('p');
+agreement.textContent = "Check here is you agree to love your new pet!";
+theForm.appendChild(agreement);
 
-var agreement2 = document.createElement('p');
-agreement2.textContent = "Check here if your state allows the keeping of exotic pets";
-theForm.appendChild(agreement2);
 
 
 var b = document.createElement('input');
@@ -50,8 +45,13 @@ b.setAttribute("name", "Fur")
 b.required = true;
 theForm.appendChild(b);
 
+var agreement2 = document.createElement('p');
+agreement2.textContent = "Check here if your state allows the keeping of exotic pets";
+theForm.appendChild(agreement2);
+
+
 
 var button = document.createElement('button');
 button.setAttribute("type", "submit");
-button.innerHTML = "Happiness is one click away!"
+button.innerHTML = "Happiness is only one more click away!"
 theForm.appendChild(button);

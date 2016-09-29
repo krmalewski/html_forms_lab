@@ -5,70 +5,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>HTML Forms</title>
   <link rel="stylesheet" href="cart.css">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans+Condensed:300" rel="stylesheet">
 </head>
+
 <body>
   <header id="header" class="">
-   <!--  <nav>
-      <ul>
-        <li><a href="/" title="">home</a></li>
-        <li><a href="" title="">link</a></li>
-        <li><a href="" title="">about</a></li>
-      </ul>
-    </nav> -->
-  </header><!-- /header -->
+
+  </header>
+
   <main>
     <h1>Check Out</h1>
+    <hr>
 
-      <hr>
-        <div class="container">
-
-            <div id="cs">
-
-              </div>
-
-<selection>
-  <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
-
-
-          First name:<br>
-          <input type="text" name="firstname" required=""><br>
-          Last name:<br>
-          <input type="text" name="lastname" required><br>
-          Email:<br>
-          <input type="text" name="Email" required=""><br>
-          phone Number:<br>
-          <input type="int" name="Phone Number" required=""><br>
-
+    <div class="container">
+      <section>
+        <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
+          First Name:   <input type="text" name="firstname" required=""><br>
+          Last Name:    <input type="text" name="lastname" required><br>
+          Email:        <input type="text" name="Email" id="email" required=""><br>
+          Phone Number: <input type="int" name="Phone Number" required=""><br>
         </form>
-</selection>
-
-
-
-
-         </div>
-
-         <!-- full name,adress,#, email
- -->
-
-
-
-
-
-    <!-- <article>
-      <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
-        <label>Input your name
-          <input list="browsers" name="myName" />
-        </label>
-          <button type="submit">jsdfhsf</button>
-      </form>
-    </article>
-    <aside class="list-output"> -->
-
-    </aside>
+      </section>
+    </div>
   </main>
+
   <footer>
     <h5>Footer</h5>
   </footer>
+
   <script src="starter.js"></script>
 </body>
 </html>
