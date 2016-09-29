@@ -94,3 +94,25 @@ p {
 span {
   color: #e600ac;
 }
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  img {
+    width: 75px;
+  }
+
+  body {
+    font-size: 17px;
+  }
+
+  button {
+    font-size: 17px
+  }
+
+  button:hover {
+    background-color: #e600ac;
+}
+}
