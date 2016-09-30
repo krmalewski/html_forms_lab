@@ -1,42 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans+Condensed:300" rel="stylesheet">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>HTML Forms</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Fur Real Friends ღ</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans+Condensed:300" rel="stylesheet">
   <script src="starter.js"></script>
 </head>
+
 <body>
-  <header id="header" class="">
-    <nav>
-      <ul>
-        <li><a href="/" title="">home</a></li>
-        <li><a href="" title="">link</a></li>
-        <li><a href="" title="">about</a></li>
-      </ul>
-    </nav>
-  </header><!-- /header -->
+
   <main>
-    <h1>Check Out</h1>
 
+    <hr>
 
+    <div class="container">
+ <div id="header">
+    <h1>Fur Real Friends ღ</h1>
+  </div>
+        <div class="product">
+          <div id="chinchilla" class="picture"></div>
+        </div>
 
-    <article>
-      <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
-        <label>Input your name
-          <input list="browsers" name="myName" />
-        </label>
+        <div class="product">
+          <div id="pig" class="picture"></div>
+        </div>
 
-          <button type="submit">jsdfhsf</button>
+        <div class="product">
+          <div id="fox" class="picture"></div>
+        </div>
+
+      <form action="http://localhost:8000/app.html"  class=‘pet-form’ method=‘post’ name='pet'>
+        <div class="input">
+            <h4 class="names">Chinchilla   </h4>
+            <label id=‘chinchilla’>
+              <input type="radio" name="gender" value="Male"> Male<br>
+              <input type="radio" name="gender" value="Female"> Female<br>
+
+              <select name='color' class="menu">
+                <option value="White-Chinchilla">White</option>
+                <option value="Grey-Chinchilla">Grey</option>
+                <option value="Black-Chinchilla">Black</option>
+             </select>
+          </label>
+        </div>
+        </br>
+        <button type="submit" class="pick">Adopt Me!</button>
       </form>
-    </article>
-    <aside class="list-output">
 
-    </aside>
+      <form action="http://localhost:8000/app.html"  class=‘pet-form’ method=‘get’ name='pet'>
+        <div class="input">
+          <h4 class="names">Pig</h4>
+          <label id=‘pig’>
+            <input type="radio" name="gender" value='Male'> Male<br>
+            <input type="radio" name="gender" value='Female'> Female<br>
+
+            <select name='color' class="menu">
+              <option value="Pink-Pig">Pink</option>
+              <option value="Black-Pig">Black</option>
+              <option value="Spotted-Pig">Spotted</option>
+            </select>
+          </label>
+        </div>
+        </br>
+        <button type="submit" class="pick">Adopt Me!</button>
+      </form>
+
+      <form action="http://localhost:8000/app.html"  class=‘pet-form’ method=‘get’ name='pet'>
+        <div class="input">
+          <h4 class="names">Fox</h4>
+          <label id=‘fox’>
+            <input type="radio" name="gender" value="Male"> Male<br>
+            <input type="radio" name="gender" value="Female"> Female<br>
+
+            <select name='color' class="menu">
+              <option value="White-Fox">White</option>
+              <option value="Black-Fox">Black </option>
+              <option value="Orange-Fox">Orange</option>
+            </select>
+           </label>
+        </div>
+        </br>
+        <button type="submit" class="pick">Adopt Me!</button>
+      </form>
+
+    </div>
   </main>
-  <footer>
-    <h5>Footer</h5>
-  </footer>
+  <div class="top"></div>
+<div class="top"></div>
 </body>
 </html>
